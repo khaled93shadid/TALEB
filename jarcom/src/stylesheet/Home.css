@@ -1,0 +1,13 @@
+#divbody{display: grid;grid-template-areas:'area1 area2'
+                                           
+                                           'area3 area4' ;background-color:lavender;}
+#area1{grid-area: area1;height: 200px;background-color:aliceblue;}
+#area2{grid-area: area2;height: 200px;width: 100%;background-color:aliceblue;}
+#area3{grid-area: area3;height: 200px;background-color:aliceblue;;}
+#area4{grid-area: area4;height: 200px;background-color:aliceblue;}
+
+
+#img1{width: 100%;height:100px
+     ;}
+#imgarea1{width: 200px;height:200px;margin-left:750px;}
+#imgarea2{width: 200px;height:200px;margin-left:750px;}
