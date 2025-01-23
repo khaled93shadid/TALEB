@@ -1,13 +1,12 @@
-#continer{display: grid;grid-template-columns:30% 30% 40%;background-color:aliceblue;}
+#continer{display: grid;grid-template-columns:30% 30% 40%;background-color:midnightblue;height:100px;}
 #ul>li{display: inline;transition:transform 0.2s;}
 #ul>li:hover{transform: scale(2.5);}
-#logo{width:100px;}
-.li{margin-left:50px;font-size:large;font-family:emoji;border: solid black 2px;transition:transform 0.2s;}
-.li:hover{transform: scale(2.5);}
+#logo{width:100px;height:100px;}
+.li{color: aliceblue;margin-left:50px;font-size:large;font-family:emoji ;transition:transform 0.2s;}
 #ul{margin-top: 30px;}
-.atag{text-decoration: none;color: black;font-family: fantasy;transition:transform 0.2s;}
+.atag{text-decoration: none;color:aliceblue;font-family: fantasy;transition:transform 0.2s;}
 .atag:hover{transform: scale(2.5);}
-#taleb{margin-left: 90px;font-family: fangsong;}
+#taleb{margin-left: 90px;font-family: fangsong;color: aliceblue;}
 #h1{margin-left: 400px;}
 #imgdiv{background-image: url(https://th.bing.com/th/id/OIP.rsCj4dqZ-dQ9DdbdGR45SgHaE2?rs=1&pid=ImgDetMain);
 width: 100%;height: 100%;}
