@@ -9,8 +9,7 @@ function App() {
   return (
     <Router>
     
-    <Nav2/>
-    <Nav1 />
+    <Nav2/>   
       
 
             <Routes>

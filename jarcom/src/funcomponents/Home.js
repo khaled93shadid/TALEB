@@ -1,6 +1,13 @@
 import react from 'react';
 import { useState } from 'react';
 import '../stylesheet/Home.css';
+import * as React from 'react';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import CardActionArea from '@mui/material/CardActionArea';
+
 
 export default function Home  ()
 {
@@ -31,11 +38,162 @@ return(
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
+
+
 </div>
+
+<div class='divbody2'>
+    
+
+<div id='area1'>
+
+<Card sx={{ maxWidth: 345 }}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          height="300"
+          image="https://cdn.pixabay.com/photo/2016/03/30/02/21/idea-1289871_640.jpg"
+          alt="green iguana"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+          share your thoughts&Ideas
+          </Typography>
+          <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+            what do you feel about the study and every thing you express your self by 
+            sharing your positive ideas wtih other collegeus
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+
+</div>
+
+<div id='area2'>
+<Card sx={{ maxWidth: 345 }}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          height="300"
+          image="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1492200448/articles/2014/04/30/how-2014-is-shaping-up-to-be-the-darkest-money-election-to-date/140429-maguire-dark-money-tease_nsfaag"
+          alt="green iguana"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+          Earn money 
+          </Typography>
+          <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+            do you have something special to sell like food,coffee or any thing 
+            that maybe your collegues will need 
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+</div>
+<div id='area3'> 
+<Card sx={{ maxWidth: 345 }}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          height="300"
+          image="https://static.vecteezy.com/system/resources/previews/000/574/215/non_2x/vector-sign-of-user-icon.jpg"
+          alt="green iguana"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+          create your own profile
+          </Typography>
+          <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+            a special profile contain your informationt to let other know more 
+            about you
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+    
+     </div>
+
+
+<div id='area4'><img id='imgarea2' src='' /></div>
+<div id='area3'></div>
+<div id='area4'><img id='imgarea2' src='' /></div>
+
+</div>
+
+
+
+
+<div class='divbody2'>
+<div id='area1'>
+
+<Card sx={{ maxWidth: 345 }}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          height="300"
+          image="https://wallpapercave.com/wp/wp2297912.jpg"
+          alt="green iguana"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+          support your collegeus
+          </Typography>
+          <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+            when do you have break time to help your collegeus in particular subject
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+
+</div>
+
+<div id='area2'>
+<Card sx={{ maxWidth: 345 }}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          height="300"
+          image="https://media.istockphoto.com/id/898607804/vector/friends-vector-icon.jpg?s=612x612&w=0&k=20&c=UGOThNNAdgh9zzGHsj0rZMIYP9hh7THCBDu4S9tQWgA="
+          alt="green iguana"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+          make new friends 
+          </Typography>
+          <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+            make new friends every day to have a good time
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+</div>
+<div id='area3'> 
+<Card sx={{ maxWidth: 345 }}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          height="300"
+          image="https://th.bing.com/th/id/OIP.QybkYb5z0MiToJIGpLjjpgHaHD?rs=1&pid=ImgDetMain"
+          alt="green iguana"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+          rate others
+          </Typography>
+          <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+            rate other works and share your ideas about them
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+    
+    
+
+     </div>
+
+</div>
+
 
 <div class='divbody'>
     
@@ -81,24 +239,6 @@ return(
 
 
 </div>
-
-<div class='divbody'>
-    
-
-<div id='area1'><h1 className='h1class'>share your thoughts&Ideas </h1>
-<br/>
-<br/>
-<br/>
-<br/>
-</div>
-<div id='area2'><img class='imgarea1' src='https://cdn.pixabay.com/photo/2016/03/30/02/21/idea-1289871_640.jpg' /></div>
-<div id='area3'><h1 className='h1class'>Earn money &give support</h1></div>
-<div id='area4'><img id='imgarea2' src='https://st3.depositphotos.com/12060448/14627/i/450/depositphotos_146277809-stock-photo-selective-focus-of-coins-and.jpg' /></div>
-<div id='area3'><h1 className='h1class'>create your own profile</h1></div>
-<div id='area4'><img id='imgarea2' src='https://th.bing.com/th/id/OIP.Od4m4w455EEToOQDKESqvgHaFJ?rs=1&pid=ImgDetMain' /></div>
-
-</div>
-
 
 </>
 )

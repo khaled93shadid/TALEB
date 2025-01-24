@@ -1,7 +1,7 @@
 #continer{display: grid;grid-template-columns:30% 30% 40%;background-color:black;height:100px;}
 #ul>li{display: inline;transition:transform 0.2s;}
 #ul>li:hover{transform: scale(2.5);}
-#logo{width:100px;height:100px;}
+#logo{width:50px;height:50px;}
 .li{color: aliceblue;margin-left:50px;font-size:large;font-family:emoji ;transition:transform 0.2s;}
 #ul{margin-top: 30px;}
 .atag{text-decoration: none;color:aliceblue;font-family: fantasy;transition:transform 0.2s;}
@@ -9,10 +9,12 @@
 #taleb{margin-left: 90px;font-family: fangsong;color: aliceblue;}
 #h1{margin-left: 400px;}
 #imgdiv{background-image: url(https://th.bing.com/th/id/OIP.rsCj4dqZ-dQ9DdbdGR45SgHaE2?rs=1&pid=ImgDetMain);
-width: 100%;height: 100%;}
+width: 100%;height: 100%; transition: transform 0.2s;}
+#imgdiv:hover{transform: scale(1.1);}
 #h3div{background-color:aliceblue;}
 
 
 
 #nav2taleb{margin-left: 450px;font-size: xx-large;}
 .nav2link{text-decoration: none;color: aliceblue;}
+#nav2container{background-color: black;}
