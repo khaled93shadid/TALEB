@@ -198,15 +198,12 @@ return(
 <div class='divbody'>
     
 
-<div id='area1'><h1 className='h1class'>share your thoughts&Ideas </h1>
-<br/>
-<br/>
-<br/>
-<br/>
+<div id='area1'><h1 className='h1class'>Add your graduated project </h1>
+
 </div>
-<div id='area2'><img class='imgarea1' src='https://cdn.pixabay.com/photo/2016/03/30/02/21/idea-1289871_640.jpg' /></div>
-<div id='area3'><h1 className='h1class'>Earn money &give support</h1></div>
-<div id='area4'><img id='imgarea2' src='https://st3.depositphotos.com/12060448/14627/i/450/depositphotos_146277809-stock-photo-selective-focus-of-coins-and.jpg' /></div>
+<div id='area2'><img class='imgarea1' src='https://th.bing.com/th/id/R.c43ef7d4e538f08c314021751dcffafa?rik=9ft4tc0sRch7CA&pid=ImgRaw&r=0' /></div>
+<div id='area3'><h1 className='h1class'>Latest news</h1></div>
+<div id='area4'><img id='imgarea2' src='https://s3.amazonaws.com/kajabi-storefronts-production/blogs/3184/images/boSG6B6HQQqRUjz2Tp1a_Screen-Shot-2016-05-14-at-10.37.33-AM-1024x575.png' /></div>
 <div id='area3'><h1 className='h1class'>create your own profile</h1></div>
 <div id='area4'><img id='imgarea2' src='https://th.bing.com/th/id/OIP.Od4m4w455EEToOQDKESqvgHaFJ?rs=1&pid=ImgDetMain' /></div>
 
