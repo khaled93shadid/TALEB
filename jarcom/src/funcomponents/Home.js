@@ -165,13 +165,15 @@ return(
           height="300"
           image="https://th.bing.com/th/id/OIP.QybkYb5z0MiToJIGpLjjpgHaHD?rs=1&pid=ImgDetMain"
           alt="green iguana"
+          
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-          rate others
+          <a className='a' href='http:/CS_Department/main' >rate others</a>
           </Typography>
           <Typography variant="body2" sx={{ color: 'text.secondary' }}>
             rate other works and share your ideas about them
+
           </Typography>
         </CardContent>
       </CardActionArea>
