@@ -30,18 +30,7 @@ const increment =()=>
     }    
 return(
 <>
-<div id='imgdiv'>
-<br/>       
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
-
-
-</div>
 
 <div class='divbody2'>
     
@@ -77,7 +66,7 @@ return(
           component="img"
           height="300"
           image="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1492200448/articles/2014/04/30/how-2014-is-shaping-up-to-be-the-darkest-money-election-to-date/140429-maguire-dark-money-tease_nsfaag"
-          alt="green iguana"
+          alt="image"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
