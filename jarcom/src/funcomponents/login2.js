@@ -24,10 +24,19 @@ const signIn = async (provider, formData) => {
 export default function Login() {
   const theme = useTheme();
   return (
+    
     // preview-start
     
     <AppProvider theme={theme} >
-      
+    <div id='imgdiv'>
+<br/>       
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</div>  
       <SignInPage
         signIn={signIn}
         providers={providers}

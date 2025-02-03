@@ -30,7 +30,15 @@ const increment =()=>
     }    
 return(
 <>
-
+<div id='imgdiv'>
+<br/>       
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</div>
 
 <div class='divbody2'>
     
@@ -169,7 +177,7 @@ return(
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-          <a className='a' href='http:/CS_Department/main' >rate others</a>
+          <a className='a' href='main.html' >rate others</a>
           </Typography>
           <Typography variant="body2" sx={{ color: 'text.secondary' }}>
             rate other works and share your ideas about them

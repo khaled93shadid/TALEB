@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Nav2 from './funcomponents/Nav2';
 import Login from './funcomponents/login2';
 import Signup from './funcomponents/signup';
+import Profile from './funcomponents/profile';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                        <Route path='/Home.js' element={<Home />} />
                        <Route path='/login.js' element={<Login />} />
                        <Route path='/signup.js' element={<Signup />} />
+                       <Route path='/profile.js' element={<Profile />} />
                     
                             
             </Routes>

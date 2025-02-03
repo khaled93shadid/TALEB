@@ -12,7 +12,15 @@ export default function Signup() {
 
 return(
 <>
-
+<div id='imgdiv'>
+<br/>       
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</div>
 <Card sx={{ maxWidth: 345 }} id="form" >
       <CardActionArea >
         <CardMedia
@@ -20,7 +28,7 @@ return(
           height="140"
           image="https://t4.ftcdn.net/jpg/03/05/50/67/360_F_305506752_71cd0CYovmKU3t2vwmSfFqx05EtuqxKo.jpg"
           alt="pic"
-          id='img1'
+          id='img12'
           
         />
         <CardContent>

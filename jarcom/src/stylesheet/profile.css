@@ -1,0 +1,16 @@
+#container{display:grid;grid-template-columns:25% 55% 20% ;margin-top:2px;}
+#img1{border-radius: 50px;height:150px;width:200px;}
+#img55{height: 283px;width:750px ;}
+#h11{font-family: cursive;}
+#b1{background-color: black;margin-left:70px; padding: auto;}
+#b2{background-color: black;margin-left:180px;}
+.b3{background-color: black;margin-left:70px;}
+#divborder{border:solid darkgrey 2px ;border-radius: 5px;}
+#area1{margin-left: 0px;}
+#share{margin-left: 350px;}
+#h1share{margin-left: 100px;}
+#box{margin-left: 150px;}
+#bodyprofile{margin-bottom: 5px;}
+.cardprofile{border-top: solid darkgrey;border-right: solid darkgrey 2px;border-radius:2px;display: grid;grid-template-columns: 30% 70%;}
+.h22{margin-top: 50px;}
+

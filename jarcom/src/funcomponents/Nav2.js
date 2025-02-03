@@ -34,18 +34,10 @@ export default function ButtonAppBar() {
           <Button color="inherit"><Link to='/signup.js' className='nav2link'> signup</Link></Button>
           <Button color="inherit"> <Link to="/login.js" className='nav2link' >login</Link> </Button>
           <Button color="inherit">  <Link to='Nav1' className='nav2link'>  whatsnew </Link>  </Button>
-          <Button color="inherit">profile</Button>
+          <Button color="inherit">  <Link to='profile.js' className='nav2link'> profile  </Link> </Button>
         </Toolbar>
       </AppBar>
-      <div id='imgdiv'>
-<br/>       
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-</div>
+      
     </Box>
     
   );
