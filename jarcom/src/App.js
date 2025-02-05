@@ -6,6 +6,7 @@ import Nav2 from './funcomponents/Nav2';
 import Login from './funcomponents/login2';
 import Signup from './funcomponents/signup';
 import Profile from './funcomponents/profile';
+import Whatsnew from './funcomponents/whatsnew';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
                        <Route path='/login.js' element={<Login />} />
                        <Route path='/signup.js' element={<Signup />} />
                        <Route path='/profile.js' element={<Profile />} />
+                       <Route path='/whatsnew.js' element={<Whatsnew />} />
                     
                             
             </Routes>

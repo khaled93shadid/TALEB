@@ -15,6 +15,17 @@ import CardActions from '@mui/material/CardActions';
 import BuildIcon from '@mui/icons-material/Build';
 import Modal from '@mui/material/Modal';
 
+import Stack from '@mui/material/Stack';
+import { pink } from '@mui/material/colors';
+import SvgIcon from '@mui/material/SvgIcon';
+function HomeIcon(props) {
+  return (
+    <SvgIcon {...props}>
+      <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+    </SvgIcon>
+  );
+}
+
 
 const style = {
   position: 'absolute',
@@ -39,9 +50,9 @@ export default function Profile(){
       const [open, setOpen] = useState(false);
       const handleOpen = () => setOpen(true);
       const handleClose = () => setOpen(false);
-      const [name,setname]=useState('khaled shadid');
+      const [name,setname]=useState('Khaled Hafez Shadid');
       const [state,setstate]=useState('Im khaled shadid 31 years old ,Im customerService Advisor'); 
-      const[imagestate,setimagestate]=useState('https://www.skynewsarabia.com/images/v1/2023/12/10/1676794/1200/630/1-1676794.JPG');
+      const[imagestate,setimagestate]=useState('https://static.vecteezy.com/system/resources/previews/000/574/215/non_2x/vector-sign-of-user-icon.jpg');
       const[coverstate,setcoverstate]=useState('https://wallpapercave.com/wp/wp9607777.jpg');
       const editprofile=()=>{
              const nametoedit=name;
@@ -123,7 +134,7 @@ return(
       >
         <Box sx={style} id='modal'>
           <Typography class='modaltxt' id="modal-modal-title" variant="h6" component="h2">
-            Update Profile:
+            Update<HomeIcon color="primary" />Profile:
           </Typography>
           <form class='modalform' onSubmit={(Event)=>{
             Event.preventDefault();
@@ -177,6 +188,20 @@ return(
 </div>
 
 <div id='bodyprofile'>
+<div id='share0'>
+<Stack direction="column" spacing={3}>
+      <HomeIcon />
+      <HomeIcon color="primary" />
+      <HomeIcon color="secondary" />
+      <HomeIcon color="success" />
+      <HomeIcon color="action" />
+      <HomeIcon color="disabled" />
+    </Stack>
+    
+   </div>
+
+
+
     <div id='share'>
         <h1 id='h1share'>what do you think,share something... </h1>
         
@@ -217,26 +242,27 @@ return(
     </Button>
     </Box>
         </form>
-        
-        
-        
-    </div>
+        </div>
+   <div id='share2'>
+  
+
+     </div>
 
 </div>
-
 
 
   {sharedata.map((item,index)=>
     <div  className='cardprofile' key={index}>  
 
     <div>
-  <Card sx={{ maxWidth: 345 }} >
+  <Card sx={{ maxWidth: 345 }}  >
       <CardActionArea >
         <CardMedia
           component="img"
           height="140"
           image={item.image}
-          alt="picture" />
+           
+          />
        </CardActionArea>
       <CardActions>
       <Button variant="contained" disableElevation id='b3' onClick={()=>{deletepost(index)}}>

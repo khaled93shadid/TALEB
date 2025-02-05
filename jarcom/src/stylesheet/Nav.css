@@ -10,11 +10,12 @@
 #h1{margin-left: 400px;}
 #imgdiv{background-image: url(https://th.bing.com/th/id/OIP.rsCj4dqZ-dQ9DdbdGR45SgHaE2?rs=1&pid=ImgDetMain);
 width: 100%;height: 100%; transition: transform 0.2s;}
-#imgdiv:hover{transform: scale(1.1);}
+#imgdiv:hover{transform: scale(1);}
 #h3div{background-color:aliceblue;}
 
 
 
 #nav2taleb{margin-left: 450px;font-size: xx-large;}
 .nav2link{text-decoration: none;color: aliceblue;}
+.nav2link:hover{color: goldenrod;}
 #nav2container{background-color: black;}

@@ -1,0 +1,5 @@
+#h15{border: solid black 5px }
+#continer1{display: grid; grid-template-columns: 2.5% 95% 2.5%;}
+#div1{background-color:black;}
+#div3{background-color:black;}
+.card1{margin-top: 5px;border-bottom: solid black 1px;display: grid; grid-template-columns: 20% 40% 40%;}
