@@ -1,5 +1,14 @@
 #h15{border: solid black 5px }
-#continer1{display: grid; grid-template-columns: 2.5% 95% 2.5%;}
+#continer1{display: grid; grid-template-columns: 1.5% 97% 1.5%;}
 #div1{background-color:black;}
 #div3{background-color:black;}
-.card1{margin-top: 5px;border-bottom: solid black 1px;display: grid; grid-template-columns: 20% 40% 40%;}
+.card1{margin-top: 5px;border-bottom: solid black 1px;display: grid; grid-template-columns: 20% 50% 30%;height: 210px;border-radius: 30px;}
+
+#replaydiv{border: solid black 1px;}
+#replaytxt1{text-align: center;border-bottom: solid black 1px;}
+#replayb1{background-color: black;margin-top: 5px;margin-left: 50px;}
+#replayb1:hover{color: goldenrod;}
+#h3{margin-top: 50px;margin-left: 10px;}
+#div23 {}
+#middle{display: grid;grid-template-columns: 65% 35%;}
+#comment{border: solid black 1px;border-radius: 7px;background-color:goldenrod;}
