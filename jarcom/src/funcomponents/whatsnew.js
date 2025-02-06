@@ -124,6 +124,11 @@ const[sharedata,setsharedata]=useState([
 
 return(
 <>
+<div id='firstdiv'>
+<h3 id='firsth1'>Whats new</h3>
+<br/>
+</div>
+    
 
 
 <div id='continer1'>
@@ -146,6 +151,7 @@ return(
           height="140"
           image='https://i.pinimg.com/originals/1f/aa/2d/1faa2db0ff81ed20349a2215137aa819.jpg'
           alt="picture"
+          class='imgnew'
         />
         <CardContent>
           
@@ -188,6 +194,7 @@ return(
           multiline
           rows={5}
           value={comment1}
+
            
           onChange={(Event)=>{setcomment1(Event.target.value)}}
           />
@@ -251,6 +258,7 @@ return(
           height="140"
           image="https://th.bing.com/th/id/R.744c84bea7c61fad933497e23ab2f2da?rik=XUcQvbvPOM7yLQ&riu=http%3a%2f%2fcdn.taste.com.au%2fimages%2frecipes%2fsfi%2f2005%2f07%2f1018.jpg&ehk=45WmqnZucECJnQ4wEgA1lZ43QP1MLSldWj%2fqD%2bs%2fGY0%3d&risl=&pid=ImgRaw&r=0"
           alt="picture"
+          class='imgnew'
         />
         <CardContent>
             <Typography variant="body2" sx={{ color: 'text.secondary' }}>
@@ -290,8 +298,7 @@ return(
           label="comment on post.."
           multiline
           rows={5}
-          value={comment2}
-           
+          value={comment2} 
           onChange={(Event)=>{setcomment2(Event.target.value)}}
           />
            <Button id='replayb1'  type='submit' variant="contained" disableElevation >Replay </Button> 
@@ -350,6 +357,7 @@ return(
           height="140"
           image="https://th.bing.com/th/id/OIP.n3sAXxDyR0gM6xT1ZwmXdQHaE8?rs=1&pid=ImgDetMain"
           alt="picture"
+          class='imgnew'
         />
         <CardContent>
                     <Typography variant="body2" sx={{ color: 'text.secondary' }}>
@@ -388,7 +396,6 @@ return(
           multiline
           rows={5}
           value={comment3}
-           
           onChange={(Event)=>{setcomment3(Event.target.value)}}
           />
            <Button id='replayb1'  type='submit' variant="contained" disableElevation >Replay </Button> 
