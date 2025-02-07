@@ -1,16 +1,16 @@
-.divbody{display: grid;grid-template-columns:70% 30%;margin-top: 300px;}
+.divbody{margin-top: 250px;margin-bottom: 5px;}
 .divbody2{display: grid;grid-template-columns:auto auto auto;margin-top: 2px;margin-bottom: 50px;}
-.divbody1{display: grid;grid-template-columns:auto auto auto;}
+.divbody1{display: grid;grid-template-columns:auto auto auto;border: solid lightgrey 2px;border-radius: 10px;}
 #area1{height: 200px;}
 #area2{height: 200px}
 #area3{height: 200px;}
 #area4{height: 200px;}
-
+.margintop{margin-top: 200px;}
 
 #img12{width: 100%;height:100px ;}
 .imgarea1{width: 100%;height:200px;}
 .img{width: 100px;height:100px;}
-#imgarea2{width: 100%;height:200px;}
+#imgarea2{width: 350px;height:300px;}
 .h1class{margin-left: 300px;color:black ;}
 .button{background-color: black;}
 .a{text-decoration: none;color: black;}
@@ -23,3 +23,8 @@
 
 
 #img2{height:200px;width:200px;margin-left: 500px;}
+#key{display: grid;grid-template-columns:40% 60%;margin-left: 200px;}
+#item{border: solid lightgrey 2px;border-radius: 10px;}
+#h:hover{color:goldenrod;text-decoration: none;}
+#at{text-decoration: none; color:black;}
+.divbodylast{margin-left: 400px;}

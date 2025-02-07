@@ -9,25 +9,52 @@ import Typography from '@mui/material/Typography';
 import CardActionArea from '@mui/material/CardActionArea';
 
 
-export default function Home  ()
-{
-const[count,setcount]=useState(0);
-const[msg,setmsg]=useState('original messege');
 
-const increment =()=>
-    {
-    setcount(count+1);
-    
-    }
-    const decrement =()=>
-        {
-        setcount(count-1);
-        
-        }
-    const editmsg =()=>
-    {
-    setmsg('this is edited msg');    
-    }    
+import { experimentalStyled as styled } from '@mui/material/styles';
+import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
+import Grid from '@mui/material/Grid2';
+const Item = styled(Paper)(({ theme }) => ({
+  backgroundColor: '#fff',
+  ...theme.typography.body2,
+  padding: theme.spacing(2),
+  textAlign: 'center',
+  color: theme.palette.text.secondary,
+  ...theme.applyStyles('dark', {
+    backgroundColor: '#1A2027',
+  }),
+}));
+
+
+
+
+
+export default function Home  ()
+
+{
+
+  const[data,setdata]=useState([
+{
+  text:'Add your graduated project ',
+  img:'https://th.bing.com/th/id/R.c43ef7d4e538f08c314021751dcffafa?rik=9ft4tc0sRch7CA&pid=ImgRaw&r=0',
+},
+{
+  text:'Latest news',
+  img:'https://s3.amazonaws.com/kajabi-storefronts-production/blogs/3184/images/boSG6B6HQQqRUjz2Tp1a_Screen-Shot-2016-05-14-at-10.37.33-AM-1024x575.png',
+},
+{
+  text:'Chat with Advisor',
+  img:'https://static.vecteezy.com/system/resources/previews/015/720/174/non_2x/eps10-white-phone-call-or-telephone-abstract-icon-isolated-on-black-background-contact-us-or-hotline-symbol-in-a-simple-flat-trendy-modern-style-for-your-website-design-logo-and-mobile-app-vector.jpg',
+},
+  ]); 
+
+
+
+  
+
+   
+
+
 return(
 <>
 <div id='imgdiv'>
@@ -102,8 +129,11 @@ return(
           create your own profile
           </Typography>
           <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-            a special profile contain your informationt to let other know more 
+            a special profile 
+            contain your informationt to let other know more 
             about you
+            <br/>
+            <br/>
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -112,17 +142,13 @@ return(
      </div>
 
 
-<div id='area4'><img id='imgarea2' src='' /></div>
-<div id='area3'></div>
-<div id='area4'><img id='imgarea2' src='' /></div>
-
 </div>
 
 
 
 
 <div class='divbody2'>
-<div id='area1'>
+<div id='area1' class='margintop'>
 
 <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
@@ -145,7 +171,7 @@ return(
 
 </div>
 
-<div id='area2'>
+<div id='area2' class='margintop'>
 <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
         <CardMedia
@@ -165,7 +191,7 @@ return(
       </CardActionArea>
     </Card>
 </div>
-<div id='area3'> 
+<div id='area3' class='margintop'> 
 <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
         <CardMedia
@@ -195,46 +221,47 @@ return(
 
 
 <div class='divbody'>
-    
+        
+      
+        
+          <Grid  size={{ xs: 4, sm: 10, md: 6}}
+           containerdirection="row"
+           sx={{
+             justifyContent: "center",
+             alignItems: "stretch",
+           }}>
+          {data.map((item,index)=>
+          
+            
+            <Item key={index} id='item'>
+              <div id='key'>
+              <a id='at' href=''> <h1 id='h'> {item.text}</h1> </a>
+                 <img id='imgarea2' src={item.img} />
+                </div>
+            </Item>
+          )}     
+          </Grid>
+         
 
-<div id='area1'><h1 className='h1class'>Add your graduated project </h1>
 
-</div>
-<div id='area2'><img class='imgarea1' src='https://th.bing.com/th/id/R.c43ef7d4e538f08c314021751dcffafa?rik=9ft4tc0sRch7CA&pid=ImgRaw&r=0' /></div>
-<div id='area3'><h1 className='h1class'>Latest news</h1></div>
-<div id='area4'><img id='imgarea2' src='https://s3.amazonaws.com/kajabi-storefronts-production/blogs/3184/images/boSG6B6HQQqRUjz2Tp1a_Screen-Shot-2016-05-14-at-10.37.33-AM-1024x575.png' /></div>
-<div id='area3'><h1 className='h1class'>Call Advisor</h1></div>
-<div id='area4'><img id='imgarea2' src='https://static.vecteezy.com/system/resources/previews/015/720/174/non_2x/eps10-white-phone-call-or-telephone-abstract-icon-isolated-on-black-background-contact-us-or-hotline-symbol-in-a-simple-flat-trendy-modern-style-for-your-website-design-logo-and-mobile-app-vector.jpg' /></div>
-
-</div>
-
-<div class='divbody1' >
-
-    <div> </div>
-    <div><img className='img' src='https://th.bing.com/th/id/OIP.bX52vTMUaO4fSjm9EBhFlgHaHa?rs=1&pid=ImgDetMain '  />
-    <img className='img' src=' https://cplf.ca/wp-content/uploads/2023/11/Client-Profile-Image-1.png'  /> 
-    <img className='img' src='https://th.bing.com/th/id/R.8546820ee580a8cdb3a9c1ebd11a4daa?rik=4fwMklQJCQU1Ow&riu=http%3a%2f%2fredonline.cdnds.net%2fmain%2fthumbs%2f25788%2fstack_of_books.jpg&ehk=xwtWWiDiDhhxV8yXIhXFgeNFvZ4ETt83uVe2km2jabI%3d&risl=&pid=ImgRaw&r=0 '  />
-     </div>
-    <div> </div>
-    
-
-
-    <div> </div>
-    <div><img className='img' src='https://th.bing.com/th/id/R.3c67e53d682589dcb8ce02dd3ac1e20c?rik=LeUqj%2bnBd3%2f0WA&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2017%2f11%2f17%2f239445-coffee-coffee_beans-cup.jpg&ehk=%2bEd%2bhMjaHGMrExklwM9MNbALfkaDNqvDmS67gs%2bf2OA%3d&risl=&pid=ImgRaw&r=0'  />
-    <img className='img' src='https://static.vecteezy.com/system/resources/previews/007/296/443/original/user-icon-person-icon-client-symbol-profile-icon-vector.jpg'  /> 
-    <img className='img' src='https://motionarray.imgix.net/preview-736491-xt36ePQvnliK9iU2-large.jpg?w=1400&q=60&fit=max&auto=format'  />
-     </div>
-    <div> </div>
-
-    <div> </div>
-    <div><img className='img' src='https://img.freepik.com/free-photo/fresh-coffee-steams-wooden-table-close-up-generative-ai_188544-8923.jpg'  />
-    <img className='img' src=' https://cdn-icons-png.flaticon.com/512/3870/3870822.png'  /> 
-    <img className='img' src='https://thumbs.dreamstime.com/b/open-books-14711577.jpg '  />
-     </div>
-    <div> </div>
-
+       
 
 </div>
+
+
+
+
+
+
+<div id='imgdiv'>
+<br/>       
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</div>
+
 
 </>
 )

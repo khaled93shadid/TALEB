@@ -10,7 +10,7 @@
 #b4{background-color: black;margin-left:10px; padding: auto;}
 #b2{background-color: black;margin-left:390px;margin-bottom: 2px;}
 #b2:hover{color: goldenrod;}
-#b3{background-color: black;margin-left:70px;}
+#b3{background-color: black;margin-left:70px;border-radius: 10px;}
 #b3:hover{color: goldenrod;}
 #divborder{border:solid black 2px ;border-radius: 1px;}
 #area1{margin-left: 0px;}

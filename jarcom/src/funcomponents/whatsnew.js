@@ -198,7 +198,7 @@ return(
            
           onChange={(Event)=>{setcomment1(Event.target.value)}}
           />
-           <Button id='replayb1'  type='submit' variant="contained" disableElevation >Replay </Button> 
+           <Button size='small' id='replayb1'  type='submit' variant="contained" disableElevation >Replay </Button> 
            </form>
            </Box>
    
@@ -301,7 +301,7 @@ return(
           value={comment2} 
           onChange={(Event)=>{setcomment2(Event.target.value)}}
           />
-           <Button id='replayb1'  type='submit' variant="contained" disableElevation >Replay </Button> 
+           <Button size='small' id='replayb1'  type='submit' variant="contained" disableElevation >Replay </Button> 
            </form>
            </Box>
    
@@ -398,7 +398,7 @@ return(
           value={comment3}
           onChange={(Event)=>{setcomment3(Event.target.value)}}
           />
-           <Button id='replayb1'  type='submit' variant="contained" disableElevation >Replay </Button> 
+           <Button size='small' id='replayb1'  type='submit' variant="contained" disableElevation >Replay </Button> 
            </form>
            </Box>
    

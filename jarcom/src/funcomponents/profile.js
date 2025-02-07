@@ -265,7 +265,7 @@ return(
           />
        </CardActionArea>
       <CardActions>
-      <Button variant="contained" disableElevation id='b3' onClick={()=>{deletepost(index)}}>
+      <Button size='small' variant="contained" disableElevation id='b3' onClick={()=>{deletepost(index)}}>
       delete post
     </Button>            
     </CardActions>
