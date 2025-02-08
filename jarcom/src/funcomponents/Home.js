@@ -37,14 +37,17 @@ export default function Home  ()
 {
   text:'Add your graduated project ',
   img:'https://th.bing.com/th/id/R.c43ef7d4e538f08c314021751dcffafa?rik=9ft4tc0sRch7CA&pid=ImgRaw&r=0',
+  link1:'/project.js'
 },
 {
   text:'Latest news',
   img:'https://s3.amazonaws.com/kajabi-storefronts-production/blogs/3184/images/boSG6B6HQQqRUjz2Tp1a_Screen-Shot-2016-05-14-at-10.37.33-AM-1024x575.png',
+  link1:'/project.js',
 },
 {
   text:'Chat with Advisor',
   img:'https://static.vecteezy.com/system/resources/previews/015/720/174/non_2x/eps10-white-phone-call-or-telephone-abstract-icon-isolated-on-black-background-contact-us-or-hotline-symbol-in-a-simple-flat-trendy-modern-style-for-your-website-design-logo-and-mobile-app-vector.jpg',
+  link1:'/project.js'
 },
   ]); 
 
@@ -235,7 +238,7 @@ return(
             
             <Item key={index} id='item'>
               <div id='key'>
-              <a id='at' href=''> <h1 id='h'> {item.text}</h1> </a>
+              <a id='at' href={item.link1}> <h1 id='h'> {item.text}</h1> </a>
                  <img id='imgarea2' src={item.img} />
                 </div>
             </Item>
