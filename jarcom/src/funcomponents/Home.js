@@ -47,7 +47,7 @@ export default function Home  ()
 {
   text:'Chat with Advisor',
   img:'https://static.vecteezy.com/system/resources/previews/015/720/174/non_2x/eps10-white-phone-call-or-telephone-abstract-icon-isolated-on-black-background-contact-us-or-hotline-symbol-in-a-simple-flat-trendy-modern-style-for-your-website-design-logo-and-mobile-app-vector.jpg',
-  link1:'/project.js'
+  link1:'/chat.js'
 },
   ]); 
 

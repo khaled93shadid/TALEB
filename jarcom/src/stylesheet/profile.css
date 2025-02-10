@@ -17,10 +17,11 @@
 
 
 
-#share0{background-color:black;}
+#share0{background-color:black;border-radius: 1px;}
 #share{background-color: white;border: solid black 2px;}
-#share2{background-color:black;}
+#share2{background-color:black;border-radius: 1px;}
 #bodyprofile{margin-bottom: 0px;display: grid; grid-template-columns: 5% 90% 5%;}
+#imgprofile1{border-radius: 10px;}
 
 
 

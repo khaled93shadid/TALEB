@@ -1,0 +1,7 @@
+#imgchat{width: 200px;height:200px ;}
+.txtfield{margin-left: 530px;}
+#bchat{background-color: black;color: white;}
+#bchat1{background-color: black;color: white;margin-left: 90px;margin-top: 20px;}
+#itemchat{display: grid;grid-template-columns: 40% 60%;border: solid black 1px;border-radius: 10px;}
+#h2chat1{color: white;text-align: center;border-bottom: solid white 1px;}
+#h2chat2{color: white;}

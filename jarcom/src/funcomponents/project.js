@@ -2,6 +2,8 @@ import * as React from 'react';
 import { useState } from "react";
 import '../stylesheet/project.css';
 
+  
+
 
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
@@ -104,7 +106,7 @@ export default function Project() {
               key={index}
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
-              <TableCell >{item.id}</TableCell>
+              <TableCell >{index+1}</TableCell>
               <TableCell component="th" scope="row"><h4>{item.name}</h4></TableCell>
               <TableCell ><img id='posterimage' src={item.poster} alt='poster image'/></TableCell>
               <TableCell ><h4>{item.graduate}</h4></TableCell>
@@ -196,16 +198,11 @@ export default function Project() {
           </Typography>
           <form class='modalform' onSubmit={(Event)=>{
             Event.preventDefault();
-            const afterdelete1 = rows.filter((_,i)=>i !== index1);
+            const afterdelete1 = rows.filter((_,i)=>i == index1);
             editrows(afterdelete1);
-            console.log(index1);
-    
-            
-
-          
-          }}>
+            console.log(index1);   }}>
             <label > <h4 class='labelh4'>Project ID:</h4> </label>
-            <input class='label'  placeholder='Project ID' type='number'  onChange={(Event)=>{editindex1(Event.target.value)}}  />
+            <input class='label'  placeholder='Project ID' type='number' value={index1}  onChange={(Event)=>{editindex1(Event.target.value)}}  />
             <br/>
             
             <br/>
