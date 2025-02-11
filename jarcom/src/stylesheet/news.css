@@ -1,0 +1,5 @@
+#newsdiv{display: grid;grid-template-columns: 40% 60%;}
+#newscontainer{display: grid;grid-template-columns: 5% 95% ;}
+#cardnewsh1{border-bottom: dotted gray 1px;border-radius:10px;border-left: dotted gray 1px;}
+#newspic{border-radius: 10px;}
+#badge{margin-top: 150px;}

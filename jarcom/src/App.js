@@ -9,6 +9,7 @@ import Profile from './funcomponents/profile';
 import Whatsnew from './funcomponents/whatsnew';
 import Project from './funcomponents/project';
 import Chat from './funcomponents/chat';
+import News from './funcomponents/news';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
                        <Route path='/whatsnew.js' element={<Whatsnew />} />
                        <Route path='/project.js' element={<Project />} />
                        <Route path='/chat.js' element={<Chat />} />
+                       <Route path='/news.js' element={<News />} />
                     
                             
             </Routes>

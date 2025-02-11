@@ -35,14 +35,14 @@ export default function Home  ()
 
   const[data,setdata]=useState([
 {
-  text:'Add your graduated project ',
+  text:'Graduated Project',
   img:'https://th.bing.com/th/id/R.c43ef7d4e538f08c314021751dcffafa?rik=9ft4tc0sRch7CA&pid=ImgRaw&r=0',
   link1:'/project.js'
 },
 {
-  text:'Latest news',
+  text:'Latest News',
   img:'https://s3.amazonaws.com/kajabi-storefronts-production/blogs/3184/images/boSG6B6HQQqRUjz2Tp1a_Screen-Shot-2016-05-14-at-10.37.33-AM-1024x575.png',
-  link1:'/project.js',
+  link1:'/News.js',
 },
 {
   text:'Chat with Advisor',
