@@ -7,7 +7,7 @@
 #replaydiv{border: solid black 1px;}
 #replaytxt1{text-align: center;border-bottom: solid black 1px;}
 #replayb1{background-color: black;margin-top: 5px;margin-left: 50px;border-radius: 12px;}
-#replayb1:hover{color: goldenrod;}
+#replayb1:hover{color:powderblue ;}
 #h3{margin-top: 50px;margin-left: 10px;}
 #div23 {}
 #middle{display: grid;grid-template-columns: 65% 35%;}

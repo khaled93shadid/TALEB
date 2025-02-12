@@ -41,7 +41,16 @@ export default function Project2(){
 return(
     <>
     
-   
+    <Card sx={{ maxWidth: 1500 }}>
+
+<CardMedia
+  component="img"
+  height="120"
+  image="https://th.bing.com/th/id/R.bcafc1431179dd2972e131942af35780?rik=57l%2b4GHiv9tHPw&pid=ImgRaw&r=0"
+  alt="green iguana"
+/>
+</Card>
+
 
 <div id="pr2continer">
 
@@ -50,26 +59,64 @@ return(
 
 
             <div id='pr2table'>
-                  
+            <div id='divpr2add'>
+<Card sx={{ maxWidth: 300 }}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          height="140"
+          image="https://th.bing.com/th/id/OIP.j22kpWkKUFokY1SBObaXSwHaEJ?w=536&h=300&rs=1&pid=ImgDetMain"
+          alt="green iguana"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            Add your project
+          </Typography>
+          <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+            share your project and show others your hard work   
+          </Typography>
+    <form id='pr2form' >
+<div class='labelpr2'>       </div>
+<label><h4>Full Name:</h4></label>
+<input className='label1' type='text' placeholder="Enter your Full Name" required />
 
-            <div id='pr2headerdiv'>
+<label><h4>Poster:</h4></label>
+<input className='label1' type='text' placeholder="Enter your Poster Link" required />
 
-                            
+<label><h4>Graduate year:</h4></label>
+<input className='label1' type='email' placeholder="Enter your Graduate year" required />
+
+<label><h4>Project Link:</h4></label>
+<input className='label1' type='password' placeholder="Enter your Project Link" required />
+<br/>
+<br/>
+<Button type='submit' variant="contained" disableElevation id='signup'>
+ Add project
+</Button>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</form>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+
+    
+</div>
+
+
+            <div id='pr2headerdiv'>                  
 <Card sx={{ maxWidth: 1500 }}>
  <CardActionArea>
-   <CardMedia
-     component="img"
-     height="120"
-     image="https://th.bing.com/th/id/R.bcafc1431179dd2972e131942af35780?rik=57l%2b4GHiv9tHPw&pid=ImgRaw&r=0"
-     alt="green iguana"
-   />
    <CardContent>
    
      <Typography variant="body2" sx={{ color: 'text.secondary' }}>
      <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} >
+      <Table sx={{ minWidth: 650 }} id='pr2thead' >
         <caption>here are students hard works</caption>
-        <TableHead id='pr2thead'>
+        <TableHead >
           <TableRow >
             <TableCell><h3>ID</h3></TableCell>
             <TableCell ><h3>Full Name</h3></TableCell>
@@ -99,60 +146,8 @@ return(
  </CardActionArea>
 </Card>
 
+ </div>
 
-
-
-              </div>
-
-<div id='divpr2add'>
-<Card sx={{ maxWidth: 300 }}>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          image="https://th.bing.com/th/id/OIP.j22kpWkKUFokY1SBObaXSwHaEJ?w=536&h=300&rs=1&pid=ImgDetMain"
-          alt="green iguana"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Add your project
-          </Typography>
-          <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-            share your project and show others your hard work   
-          </Typography>
-    <form id='pr2form' >
-<div class='labelpr2'>       </div>
-<label><h4>Full Name:</h4></label>
-<input className='label1' type='text' placeholder="Enter your Full Name" required />
-
-<label><h4>Poster:</h4></label>
-<input className='label1' type='text' placeholder="Enter your Poster Link" required />
-
-<label><h4>Graduate year:</h4></label>
-<input className='label1' type='email' placeholder="Enter your Graduate year" required />
-
-<label><h4>Project Link:</h4></label>
-<input className='label1' type='password' placeholder="Enter your Project Link" required />
-
-<label><h4>passward Again:</h4></label>
-<input className='label1' type='password' placeholder="Enter your passward Again" required />
-<br/>
-<br/>
-<Button type='submit' variant="contained" disableElevation id='signup'>
- Add project
-</Button>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-</form>
-        </CardContent>
-      </CardActionArea>
-    </Card>
-
-    
-</div>
 
 
 
@@ -162,10 +157,8 @@ return(
 
 
 
-
-
-
 </div>
+
 
 
     </>

@@ -11,10 +11,11 @@
 
 
 #pr2continer{display: grid;grid-template-columns: 1% 98% 1%;}
+#pr2table{display: grid;grid-template-columns: 20% 80%;}
+
+
 .pr2div{background-color: black;}
 #pr2img{width:150px;height: 50px;}
-#pr2thead{border: dotted black 1px;border-radius: 5px;}
-#pr2tbody{border: dotted black 1px;border-radius: 5px;}
 
-#divpr2add{margin-left: 450px;}
-
+#pr2thead{border: solid black px;}
+#pr2tbody{border: solid black px;}
