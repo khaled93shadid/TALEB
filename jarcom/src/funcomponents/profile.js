@@ -86,6 +86,7 @@ const deletepost=(index)=>{
 
 return(
 <>
+
 <div id='divborder'>
 <div id='container'>
     <div id='area1'>
@@ -282,15 +283,13 @@ return(
 
 
 
-<div id='imgdiv'>
-<br/>       
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-</div>
+<Card sx={{ maxWidth: 1600 }}>
+   <CardMedia
+     component="img"
+     height="140"
+     image="https://th.bing.com/th/id/R.bcafc1431179dd2972e131942af35780?rik=57l%2b4GHiv9tHPw&pid=ImgRaw&r=0"
+     alt="green iguana"/>
+     </Card>
 </>
 )
 }

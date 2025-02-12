@@ -1,5 +1,5 @@
 .divbody{margin-top: 250px;margin-bottom: 5px;}
-.divbody2{display: grid;grid-template-columns:auto auto auto;margin-top: 2px;margin-bottom: 50px;}
+.divbody2{display: grid;grid-template-columns:auto auto auto;margin-top:px;margin-bottom: 50px;margin-left: 70px;}
 .divbody1{display: grid;grid-template-columns:auto auto auto;border: solid lightgrey 2px;border-radius: 10px;}
 #area1{height: 200px;}
 #area2{height: 200px}
@@ -25,6 +25,6 @@
 #img2{height:200px;width:200px;margin-left: 500px;}
 #key{display: grid;grid-template-columns:40% 60%;margin-left: 200px;}
 #item{border: solid lightgrey 2px;border-radius: 10px;}
-#h{font-family: sans-serif;font-stretch: ultra-condensed;border-bottom: solid lightgrey 2px;}
+#h{font-family: sans-serif;font-stretch: ultra-condensed;border-bottom: solid lightgrey 1px;}
 #at{text-decoration: none; color:black;}
 .divbodylast{margin-left: 400px;}

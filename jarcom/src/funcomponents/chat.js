@@ -75,7 +75,13 @@ export default function Chat(){
     return(
         <>
      
-
+<Card sx={{ maxWidth: 1600 }}>
+   <CardMedia
+     component="img"
+     height="140"
+     image="https://th.bing.com/th/id/R.bcafc1431179dd2972e131942af35780?rik=57l%2b4GHiv9tHPw&pid=ImgRaw&r=0"
+     alt="green iguana"/>
+     </Card>
      <div id='continerchat'>
    <Grid container spacing={1} id='paperchat'>
       {[darkTheme].map((theme, index) => (
@@ -259,15 +265,7 @@ export default function Chat(){
       </Modal>
     </div>
  
-    <div id='imgdiv'>
-<br/>       
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-</div>
+    
 </>
 )
 }

@@ -60,15 +60,13 @@ export default function Home  ()
 
 return(
 <>
-<div id='imgdiv'>
-<br/>       
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-</div>
+<Card sx={{ maxWidth: 1600 }}>
+   <CardMedia
+     component="img"
+     height="140"
+     image="https://th.bing.com/th/id/R.bcafc1431179dd2972e131942af35780?rik=57l%2b4GHiv9tHPw&pid=ImgRaw&r=0"
+     alt="green iguana"/>
+     </Card>
 
 <div class='divbody2'>
     
@@ -255,15 +253,6 @@ return(
 
 
 
-
-<div id='imgdiv'>
-<br/>       
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-</div>
 
 
 </>

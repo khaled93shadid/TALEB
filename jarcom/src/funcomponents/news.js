@@ -79,24 +79,14 @@ const[data,setdata]=useState([
 
 return(
 <>
-<div id='imgdiv'>
-<br/>       
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-</div>
-<Stack direction="row" spacing={50} sx={{ alignItems: 'flex-end' }}>
-      <HomeIcon fontSize="small" />
-      
-      <HomeIcon />
-      
-      <HomeIcon fontSize="large" />
-     
-      <HomeIcon sx={{ fontSize: 40 }} />
-    </Stack>
+<Card sx={{ maxWidth: 1600 }}>
+   <CardMedia
+     component="img"
+     height="140"
+     image="https://th.bing.com/th/id/R.bcafc1431179dd2972e131942af35780?rik=57l%2b4GHiv9tHPw&pid=ImgRaw&r=0"
+     alt="green iguana"/>
+     </Card>
+
 <Grid container spacing={2}>
       {[lightTheme ].map((theme, index) => (
         <Grid item xs={50} key={index}>
@@ -105,7 +95,7 @@ return(
               sx={{
                 p: 6,
                 borderRadius: 2,
-                bgcolor: 'lavenderblush',
+                bgcolor: 'white',
                 display: 'grid',
                 gridTemplateColumns: { md: '1fr ' },
                 gap: 4,
@@ -158,15 +148,7 @@ return(
         </Grid>
       ))}
     </Grid>
-    <div id='imgdiv'>
-<br/>       
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-</div>   
+      
 </>
 )
 }
