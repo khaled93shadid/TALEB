@@ -25,7 +25,6 @@
 #img2{height:200px;width:200px;margin-left: 500px;}
 #key{display: grid;grid-template-columns:40% 60%;margin-left: 200px;}
 #item{border: solid lightgrey 2px;border-radius: 10px;}
-#h{font-family: sans-serif;font-stretch: ultra-condensed;border: solid lightgrey 2px;border-radius: 10px;}
-#h:hover{color:goldenrod;text-decoration: none;}
+#h{font-family: sans-serif;font-stretch: ultra-condensed;border-bottom: solid lightgrey 2px;}
 #at{text-decoration: none; color:black;}
 .divbodylast{margin-left: 400px;}

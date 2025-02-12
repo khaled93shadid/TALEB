@@ -238,7 +238,7 @@ return(
             
             <Item key={index} id='item'>
               <div id='key'>
-              <a id='at' href={item.link1}> <h1 id='h'> {item.text}</h1> </a>
+              <a id='at' href={item.link1}> <h1  id='h'> {item.text}</h1> </a>
                  <img id='imgarea2' src={item.img} />
                 </div>
             </Item>
